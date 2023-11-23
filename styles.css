@@ -1,0 +1,65 @@
+body {
+  background-color: #202124;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container-index {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.main-container {
+  margin: 20px 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p,
+label,
+div {
+  color: white;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.parking-cars {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.parking-cars > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #689056;
+}
+
+.select {
+  display: flex;
+}
+
+#form {
+  display: none;
+}
+
+button {
+  padding: 0.5rem 2.5rem;
+  border-radius: 50px;
+  border: transparent;
+  margin: 0 1rem;
+}
